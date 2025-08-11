@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Programacion6.props" />
+</Project>
