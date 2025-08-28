@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\2DO CUATRIMESTRE\\Programacion 6\\Programacion6\\",
+  "WorkspaceRootPath": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\2DO CUATRIMESTRE\\PROGRAMACI\u00D3N VI\\Programacion6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{601DE492-C09C-4C4F-BE06-E888274DCA94}|Programacion6.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\2do cuatrimestre\\programacion 6\\programacion6\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601DE492-C09C-4C4F-BE06-E888274DCA94}|Programacion6.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{601DE492-C09C-4C4F-BE06-E888274DCA94}|Programacion6.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\2do cuatrimestre\\programaci\u00F3n vi\\programacion6\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601DE492-C09C-4C4F-BE06-E888274DCA94}|Programacion6.csproj|solutionrelative:controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{601DE492-C09C-4C4F-BE06-E888274DCA94}|Programacion6.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\2do cuatrimestre\\programacion 6\\programacion6\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601DE492-C09C-4C4F-BE06-E888274DCA94}|Programacion6.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{601DE492-C09C-4C4F-BE06-E888274DCA94}|Programacion6.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\2do cuatrimestre\\programaci\u00F3n vi\\programacion6\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601DE492-C09C-4C4F-BE06-E888274DCA94}|Programacion6.csproj|solutionrelative:models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\2DO CUATRIMESTRE\\Programacion 6\\Programacion6\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\2DO CUATRIMESTRE\\Programacion 6\\Programacion6\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAvwBUAAAA8AAAAAAAAAA==",
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\2DO CUATRIMESTRE\\PROGRAMACI\u00D3N VI\\Programacion6\\Controllers\\PersonaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\2DO CUATRIMESTRE\\PROGRAMACI\u00D3N VI\\Programacion6\\Controllers\\PersonaController.cs",
+              "RelativeToolTip": "Controllers\\PersonaController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA7wBYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T13:43:39.84Z",
+              "WhenOpened": "2025-08-28T13:25:42.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\2DO CUATRIMESTRE\\Programacion 6\\Programacion6\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\2DO CUATRIMESTRE\\Programacion 6\\Programacion6\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\2DO CUATRIMESTRE\\PROGRAMACI\u00D3N VI\\Programacion6\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\2DO CUATRIMESTRE\\PROGRAMACI\u00D3N VI\\Programacion6\\Models\\Persona.cs",
+              "RelativeToolTip": "Models\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T13:43:19.788Z",
+              "WhenOpened": "2025-08-28T13:20:49.555Z",
               "EditorCaption": ""
             }
           ]

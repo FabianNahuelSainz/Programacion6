@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER AÑO\\2DO CUATRIMESTRE\\Programacion 6\\Programacion6\\Programacion6.csproj",
+      "projectUniqueName": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER AÑO\\2DO CUATRIMESTRE\\PROGRAMACIÓN VI\\Programacion6\\Programacion6.csproj",
       "projectName": "Programacion6",
-      "projectPath": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER AÑO\\2DO CUATRIMESTRE\\Programacion 6\\Programacion6\\Programacion6.csproj",
+      "projectPath": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER AÑO\\2DO CUATRIMESTRE\\PROGRAMACIÓN VI\\Programacion6\\Programacion6.csproj",
       "packagesPath": "C:\\Users\\Corredores Viales\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER AÑO\\2DO CUATRIMESTRE\\Programacion 6\\Programacion6\\obj\\",
+      "outputPath": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER AÑO\\2DO CUATRIMESTRE\\PROGRAMACIÓN VI\\Programacion6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

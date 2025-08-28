@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "Programacion6.Controllers.PersonaController",
+    "Method": "ListarPersonas",
+    "RelativePath": "api/Persona",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "persona",
+        "Type": "Programacion6.Models.Persona",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Programacion6.Models.Persona, Programacion6, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Programacion6.Controllers.WeatherForecastController",
     "Method": "ObtenerReporte",
     "RelativePath": "WeatherForecast",
@@ -18,6 +44,6 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "ObtenerReporte"
+    "EndpointName": "GetWeatherForecast"
   }
 ]
