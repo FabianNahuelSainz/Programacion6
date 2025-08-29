@@ -5,95 +5,28 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Persona": {
-      "post": {
-        "tags": [
-          "Persona"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Persona"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Persona"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Persona"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Persona"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Persona"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Persona"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/WeatherForecast": {
+    "/api/Club/v1/Lista-Club": {
       "get": {
         "tags": [
-          "WeatherForecast"
+          "Club"
         ],
-        "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
             "description": "OK",
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
+                  "$ref": "#/components/schemas/Club"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
+                  "$ref": "#/components/schemas/Club"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
+                  "$ref": "#/components/schemas/Club"
                 }
               }
             }
@@ -104,7 +37,51 @@
   },
   "components": {
     "schemas": {
-      "Persona": {
+      "Club": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "cantidadSocios": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cantidadTitulos": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaFundacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ubicacionEstadio": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombreEstadio": {
+            "type": "string",
+            "nullable": true
+          },
+          "socio": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Socio"
+            },
+            "nullable": true
+          },
+          "dirigente": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Dirigente"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Dirigente": {
         "type": "object",
         "properties": {
           "nombre": {
@@ -115,36 +92,47 @@
             "type": "string",
             "nullable": true
           },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "rol": {
+            "type": "string",
+            "nullable": true
+          },
           "dni": {
             "type": "integer",
             "format": "int32"
-          },
-          "profesion": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "WeatherForecast": {
+      "Socio": {
         "type": "object",
         "properties": {
-          "date": {
+          "nombre": {
             "type": "string",
-            "format": "date"
+            "nullable": true
           },
-          "temperatureC": {
+          "apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fechaAsociado": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dni": {
             "type": "integer",
             "format": "int32"
           },
-          "temperatureF": {
+          "cantidadAsistencias": {
             "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
+            "format": "int32"
           }
         },
         "additionalProperties": false

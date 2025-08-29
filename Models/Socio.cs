@@ -1,0 +1,12 @@
+﻿namespace Programacion6.Models
+{
+    public class Socio
+    {
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+        public DateTime FechaAsociado { get; set; }
+        public int Dni { get; set; }
+        public int CantidadAsistencias { get; set; }
+    }
+}
