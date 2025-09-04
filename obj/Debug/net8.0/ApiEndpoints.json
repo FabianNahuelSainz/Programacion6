@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Programacion6.Models.Club",
+        "Type": "System.Collections.Generic.List\u00601[[Programacion6.Models.Club, Programacion6, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
